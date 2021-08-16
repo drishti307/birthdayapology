@@ -1,3 +1,3 @@
 # Birthday Card
 🎂 Responsive Birthday Card - Made with Jquery and CSS 
- # Original: Siddhant Sharma
+ ### Original: Siddhant Sharma
