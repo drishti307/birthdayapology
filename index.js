@@ -59,7 +59,7 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 
-
+// Login authentication
 var attempt = 3; // Variable to count number of attempts.
 // Below function Executes on click of login button.
 function validate(){
@@ -67,7 +67,7 @@ var username = document.getElementById("uname").value;
 var password = document.getElementById("passwd").value;
 if ( username == "equna123" && password == "rtvalkerjarvar1436673"){
 alert ("Login successfully");
-window.location.href = "card.html"; // Redirecting to other page.
+window.location = "card.html"; // Redirecting to other page.
 return false;
 }
 else{
